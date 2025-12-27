@@ -33,8 +33,7 @@ Place them under `F:\jupyter\kagglehub` (or modify `base_path` in the notebook) 
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/multi-drl-iiot-ddos-detection.git
-   cd multi-drl-iiot-ddos-detection
+   git clone https://github.com/
    ```
 
 2. Create a virtual environment (recommended)
