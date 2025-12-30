@@ -10,9 +10,6 @@ Repository Structure
 
 ```
 .
-├── figures/                          # High-resolution figures (pipeline, confusion matrices, latency)
-├── models/                           # Exported ONNX PPO models (one per dataset)
-├── scalers/                          # RobustScaler objects (one per dataset)
 ├── notebook.ipynb                    # Main Jupyter notebook (full pipeline)
 ├── requirements.txt                  # Python dependencies
 ├── README.md                         # This file
