@@ -46,9 +46,9 @@ Place them under `F:\jupyter\kagglehub` (or modify `base_path` in the notebook) 
    ```
 
 4. Run the notebook
-   - Open `notebook.ipynb` in Jupyter
-   - Execute all cells sequentially
-   - The notebook will:
+    * Open `notebook.ipynb` in Jupyter
+   * Execute all cells sequentially
+   * The notebook will:
      - Load and preprocess all three datasets
      - Train all 5 DRL agents
      - Evaluate and generate figures/tables
