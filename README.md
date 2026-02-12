@@ -63,10 +63,10 @@ Reproducing Results
   - Windows 11, Intel Core i7-11800H, 16 GB RAM
 
 Expected outcomes:
-- PPO achieves 99.3% on KDDCup99, 93.7% on CIC-DDoS2019, 95.5% on Edge-IIoT
-- Inference latency < 0.12 ms per sample
-- ONNX models saved in `models/`
-- Figures saved in `figures/`
+@ PPO achieves 99.3% on KDDCup99, 93.7% on CIC-DDoS2019, 95.5% on Edge-IIoT
+@ Inference latency < 0.12 ms per sample
+@ ONNX models saved in `models/`
+@ Figures saved in `figures/`
 
 Real-Time Deployment
 
