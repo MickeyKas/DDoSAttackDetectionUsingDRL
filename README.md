@@ -8,13 +8,13 @@ The project evaluates five DRL agents (DQN, Double DQN, Duelling DQN, DDPG, PPO)
 
 Repository Structure
 
-```
+'''
 .
 ├── notebook.ipynb                    # Main Jupyter notebook (full pipeline)
 ├── requirements.txt                  # Python dependencies
 ├── README.md                         # This file
 └── data/                             # (Not included – datasets are public, see links below)
-```
+'''
 
  Datasets (Public – Download Separately)
 
@@ -29,16 +29,16 @@ Place them under `F:\jupyter\kagglehub` (or modify `base_path` in the notebook) 
  Quick Start
 
 1. Clone the repository
-   ```bash
+   '''bash
    git clone https://github.com/
-   ```
+   '''
 
 2. Create a virtual environment (recommended)
-   ```bash
+   '''bash
    python -m venv venv
    source venv/bin/activate    # Linux/macOS
    venv\Scripts\activate       # Windows
-   ```
+   '''
 
 3. Install dependencies
    ```bash
@@ -56,17 +56,17 @@ Place them under `F:\jupyter\kagglehub` (or modify `base_path` in the notebook) 
 
 Reproducing Results
 
-- All random seeds are fixed to 42 for full determinism
-- The notebook has been tested on:
-  - Python 3.11.5
-  - PyTorch 2.1.0 (CPU)
-  - Windows 11, Intel Core i7-11800H, 16 GB RAM
+   - All random seeds are fixed to 42 for full determinism
+   - The notebook has been tested on:
+    - Python 3.11.5
+    - PyTorch 2.1.0 (CPU)
+    - Windows 11, Intel Core i7-11800H, 16 GB RAM
 
 Expected outcomes:
-@ PPO achieves 99.3% on KDDCup99, 93.7% on CIC-DDoS2019, 95.5% on Edge-IIoT
-@ Inference latency < 0.12 ms per sample
-@ ONNX models saved in `models/`
-@ Figures saved in `figures/`
+* PPO achieves 99.3% on KDDCup99, 93.7% on CIC-DDoS2019, 95.5% on Edge-IIoT
+*Inference latency < 0.12 ms per sample
+* ONNX models saved in `models/`
+* Figures saved in `figures/`
 
 Real-Time Deployment
 
@@ -76,12 +76,12 @@ Citation
 
 If you use this code or results, please cite:
 
-```bibtex
+'''bibtex
 Mikiyas Alemayehu, Mohamed Chahine Ghanem, Hamza Kheddar, Geetanjali Rathee, Chaker
 Abdelaziz Kerrache
   year={2026}
 }
-```
+'''
 
 License
 
